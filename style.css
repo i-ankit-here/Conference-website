@@ -241,7 +241,7 @@ nav>.navigation>ul>li:hover {
     z-index: -1;
     animation: rotatorleft 1s infinite;
 }
-#menu, #cancel{
+.menu, #cancel{
     display: none;
 }
 @keyframes rotatorright {
