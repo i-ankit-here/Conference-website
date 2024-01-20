@@ -15,14 +15,7 @@
         display: block;
     }
     .navbg{
-        height: 100vh;
-        width: 250px;
-        position: absolute;
-        top: 0;
-        z-index: 5;
-        transition: left 0.5s ease-out;
-        opacity: 1;
-        left: -110%;
+        display: none;
     }
     .nav{
         margin: 0;
@@ -35,9 +28,9 @@
         display: flex;
         flex-direction: column;
         width: 210px;
-        z-index: 8;
     }
     .navigation{
+        background: #000000b5;
         position: absolute;
         top: 0;
         left: -110%;
