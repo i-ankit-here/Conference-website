@@ -60,7 +60,7 @@ nav>.navigation>ul>li:hover {
     width: 20px;
 }
 
-.contact {
+.contact1 {
     align-items: start;
     gap: 20px;
 }
@@ -231,9 +231,11 @@ nav>.navigation>ul>li:hover {
     color: #7743db;
 }
 .testtube{
+    z-index: -1;
     animation: rotatorright 1s infinite;
 }
 .testtube1{
+    z-index: -1;
     animation: rotatorleft 1s infinite;
 }
 #menu, #cancel{
@@ -264,6 +266,8 @@ nav>.navigation>ul>li:hover {
     }
 }
 
+
+/* utility classes */
 .flex{
     display: flex;
 }
