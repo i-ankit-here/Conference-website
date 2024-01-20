@@ -1,4 +1,7 @@
 @media(max-width: 1400px){
+    .menu{
+        display: flex;
+    }
     #menu{
         position: sticky;
         top: 5px;
