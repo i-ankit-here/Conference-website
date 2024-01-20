@@ -138,6 +138,9 @@ nav>.navigation>ul>li:hover {
     margin: 0 5px 0;
 
 }
+.mobilemail{
+    display: none;
+}
 
 .ticket {
     position: relative;

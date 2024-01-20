@@ -14,6 +14,9 @@
         width: 24px;
         display: block;
     }
+    .mobilemail{
+        display: none;
+    }
     .navbg{
         display: none;
     }
@@ -33,7 +36,7 @@
         background-color: black;
         position: fixed;
         top: 0;
-        left: -110%;
+        left: -100%;
         transition: left 0.5s ease-out;
         display: flex;
         flex-direction: row;
@@ -45,10 +48,14 @@
         right: 10px;
         top: 20px;
     }
+    .nav{
+        height: 0px;
+    }
     .container{
         justify-content: start;
         overflow:scroll;
         row-gap: 30px;
+        height: 90vh;
     }
     ::-webkit-scrollbar {
         width: 0px;
@@ -70,6 +77,9 @@
         left: 5px;
         display: block;
         z-index: 10;
+    }
+    .mobilemail{
+        display: flex;
     }
     .menu{
         position: sticky;
@@ -101,17 +111,21 @@
         flex-direction: column;
         align-items: center;
         justify-content: start;
+        height: 94vh;
+        overflow: scroll;
     }
     .container{
         justify-content: start;
         width: 90dvw;
-        height: fit-content;
+        height: max-content;
         row-gap: 30px;
+        overflow: visible;
     }
     .registration {
         width: unset;
     }
     .ticket{
         z-index: -5;
+        margin-bottom: 25px;
     }
 }
