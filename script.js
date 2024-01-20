@@ -24,12 +24,12 @@ setInterval(() => {
 
 //adding eventlisteners on cancel and menu
 document.getElementById("menu").addEventListener("click", () => {
-    document.getElementById("menu").style.display = "none";
+    document.getElementsByClassName("menu")[0].style.display = "none";
     document.querySelector(".navigation").style.left = "0";
 })
 
 
 document.getElementById("cancel").addEventListener("click", (e) => {
-    document.getElementById("menu").style.display = "block";
+    document.getElementsByClassName("menu")[0].style.display = "flex";
     document.querySelector(".navigation").style.left = "-110%";
 })
